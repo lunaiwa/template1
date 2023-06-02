@@ -5,24 +5,21 @@
         <section class="header">
             <nav>
                 <!--the logo on the header-->
-                <a href="https://github.com/EC-2-GAL/TeamWebsite/"><img src ="images/logo.png"></a>
+                <!--Can add a link by doing href="" inside of the <a>-->
+                <a><img src ="images/logo.png"></a>
                 <div class="nav-links">
                     <ul>
                         <!--the links to the other pages-->
                         <li><a href="{{ site.baseurl }}/">HOME</a></li>
-                        <li><a href="{{ site.baseurl }}/page1.html">CU1</a></li>
-                        <li><a href="{{ site.baseurl }}/page2.html">CU2</a></li>
+                        <li><a href="{{ site.baseurl }}/page1.html">Page1</a></li>
+                        <li><a href="{{ site.baseurl }}/page2.html">Page2</a></li>
                         <li class="dropdown">
-                            <a href="javascript:void(0)" class="dropbtn">JAVASCRIPT</a>
+                            <a href="javascript:void(0)" class="dropbtn">Page3</a>
                             <div class="dropdown-content">
-                                <a href="{{ site.baseurl }}/snake">SNAKE</a>
-                                <a href="{{ site.baseurl }}/snakeblog.html">LESSON</a>
+                                <a href="{{ site.baseurl }}/page3.1">Page3.1</a>
+                                <a href="{{ site.baseurl }}/page3.2.html">Page3.2</a>
                             </div>
-                          </li>
-                        <li><a href="{{ site.baseurl }}/page4.html">HACKS</a></li>
-                        <li><a href="{{ site.baseurl }}/bootstrap.html">Bootstrap</a></li>
-                        <li><a href="{{ site.baseurl }}/cu.html">Selectors</a></li>
-                    </ul>
+                        </li>
                     <!--loading screen-->
                     <script>
                         var loader = document.getElementById("loading");
